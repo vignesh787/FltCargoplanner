@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "975544072271",
+    "firebase_url": "https://flightplanner-143105.firebaseio.com",
+    "project_id": "flightplanner-143105",
+    "storage_bucket": "flightplanner-143105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975544072271:android:ca40d4c413c75b6c",
+        "android_client_info": {
+          "package_name": "bits.project.fltplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975544072271-ttnt3l1b0620dp8he0e243n28e603fbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS0yy6llNoO9-kfBzlMe7aCp178y6R8UQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975544072271:android:f880b22d0527424a",
+        "android_client_info": {
+          "package_name": "bits.dissertation.project.fltcargoplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975544072271-ttnt3l1b0620dp8he0e243n28e603fbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS0yy6llNoO9-kfBzlMe7aCp178y6R8UQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:hint="Carrier Code"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Flight Number "
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/originView"
+        android:queryHint="Enter Origin"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destView"
+        android:queryHint="Enter Destination "
+        android:layout_below="@+id/originView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/datePicker"
+        android:layout_below="@+id/destView"
+        android:layout_centerHorizontal="true"
+        android:scrollbarSize="10dp"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+  />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shciew"
+
+        android:queryHint="Enter SHC "
+        android:layout_below="@+id/datePicker"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productview"
+
+        android:queryHint="Enter Product "
+        android:layout_below="@+id/shciew"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productview"
+        android:id="@+id/HorizontalLayout">
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Booked"
+        android:text="Booked"
+        android:layout_weight="1"
+        />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Lying"
+            android:text="Lying"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Irregular"
+            android:text="Irregular"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Stopped"
+            android:text="Stopped"
+            />
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubmitButton"
+        android:layout_below="@+id/HorizontalLayout"
+        android:text="Submit"/>
+
+</RelativeLayout>
